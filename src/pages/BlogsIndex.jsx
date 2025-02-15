@@ -2,7 +2,7 @@ import Card from "../components/Card";
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-export default function BlogPosts2() {
+export default function BlogsIndex() {
     const [blogsList, setBlogsList] = useState([]);
 
     const fetchPosts = () => {

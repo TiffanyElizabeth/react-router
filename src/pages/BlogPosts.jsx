@@ -13,7 +13,7 @@ export default function BlogPosts() {
 
     return (
         <div>
-            <Link to="/blogposts">Go back to the blogs index</Link>
+            <Link to="/blogsindex">Go back to the blogs index</Link>
             <h1>{blog.title}</h1>
             <p>{blog.content}</p>
         </div>

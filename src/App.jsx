@@ -3,7 +3,7 @@ import DefaultLayout from "./layouts/DefaultLayout";
 import HomePage from "./pages/HomePage";
 import NewPost from "./pages/NewPost";
 import BlogPosts from "./pages/BlogPosts";
-import BlogPosts2 from "./pages/BlogPosts2";
+import BlogsIndex from "./pages/BlogsIndex";
 
 export default function App() {
   return (
@@ -13,7 +13,8 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="/newpost" element={<NewPost />} />
           <Route path="/blogposts" element={<BlogPosts />} />
-          <Route path="/blogposts2" element={<BlogPosts2 />} />
+          <Route path="/blogsindex" element={<BlogsIndex />} />
+          <Route path="/blogposts/:id" element={<BlogPosts />} />"
         </Route>
       </Routes>
     </BrowserRouter>

@@ -18,7 +18,7 @@ export default function Header() {
                         <NavLink to="/blogposts">Blog Posts</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/blogposts2">Blog Posts 2</NavLink>
+                        <NavLink to="/blogsindex">Blogs Index</NavLink>
                     </li>
                 </ul>
             </nav>
