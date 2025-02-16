@@ -125,3 +125,12 @@ textarea {
 .delete-all {
   margin-bottom: 50px;
 }
+
+.alert {
+  color: red;
+  font-size: 40px;
+  background-color: white;
+  border: 3px solid red;
+  text-align: center;
+  padding: 10px 0px;
+}
