@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <>
             <div className="blog-title" >
-                <p className="title" > Programming </p>
+                <p className="title" > Food Blog </p>
             </div>
             <nav className="main-nav">
                 <ul>
@@ -13,9 +13,6 @@ export default function Header() {
                     </li>
                     <li>
                         <NavLink to="/newpost">New Post</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/blogposts">Blog Posts</NavLink>
                     </li>
                     <li>
                         <NavLink to="/blogsindex">Blogs Index</NavLink>
